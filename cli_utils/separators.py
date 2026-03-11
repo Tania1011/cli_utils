@@ -50,3 +50,9 @@ def print_box(message, char="*"):
     print(border)
     print(f"{char} {message} {char}")
     print(border)
+
+def double_line_break():
+    """Prints two line breaks for better separation between sections."""
+    print("\n\n")
+
+    
