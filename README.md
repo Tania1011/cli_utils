@@ -1,16 +1,30 @@
-```markdown
-# cli_utils
 
-A beginner-friendly Python package with CLI utility functions.
+# CLI Utils
+A small Python package with useful CLI tools:
+- separators
+- ASCII art
+- colors
 
-## Usage
+## 📖 Meaning
+A Python package is a folder of Python files that you can import and reuse anywhere.
+Instead of copy-pasting code between projects, you can install your package once and use it everywhere.
 
-```python
-from cli_utils import print_separator
+## ⚡ Goal
+Learn how to create a Python package, install it locally, and share it via GitHub — step by step.
 
-print_separator()
-# Output: ******************************
+## 🛠 Installation
+Install locally:
+
+```bash
+pip install -e .
 ```
+
+Install from GitHub:
+
+```
+pip install git+https://github.com/YOUR_USERNAME/cli_utils.git
 ```
 
----
+## 🎯 Result
+<img src="demos/screenshots/output.png" width="420" height="600">
+
